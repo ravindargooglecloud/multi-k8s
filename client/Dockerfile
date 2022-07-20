@@ -1,9 +1,17 @@
+#FROM node:16-alpine
+#USER node
+#WORKDIR '/app'
+#COPY --chown=node:node ./package.json ./
+#RUN npm install
+#COPY --chown=node:node . .
+#CMD ["npm", "run", "build"]
+
+
 FROM node:16-alpine
-USER node
 WORKDIR '/app'
-COPY --chown=node:node ./package.json ./
+COPY ./package.json ./
 RUN npm install
-COPY --chown=node:node . .
+COPY . .
 CMD ["npm", "run", "build"]
 
 FROM nginx
