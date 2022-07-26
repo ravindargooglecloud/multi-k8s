@@ -6,7 +6,6 @@
 #COPY --chown=node:node . .
 #CMD ["npm", "run", "build"]
 
-
 FROM node:16-alpine as builder
 WORKDIR '/app'
 COPY ./package.json ./

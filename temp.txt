@@ -1,0 +1,22 @@
+AWS RDS postgress username and password
+
+    username - postgres
+    password - postgrespassword
+    databasename - fibvalues
+
+
+    my-security-group
+
+
+
+AWS Elastic Cache
+    multi-docker-redis
+
+    subnet name - redis-group
+
+
+multi-docker-deployer:
+
+AKIA3DAFSMYGTZ5KTNAV
+
+r3/7kICtZ0M4YImbgybdP1OsuvrdtQf2rdFdPXlv
