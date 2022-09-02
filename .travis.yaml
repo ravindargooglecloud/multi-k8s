@@ -23,3 +23,4 @@ deploy:
   script: bash ./deploy.sh
   on:
     branch: master
+# end of file
