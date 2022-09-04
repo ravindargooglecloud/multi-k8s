@@ -9,7 +9,7 @@ docker push ravindar86/multi-worker:latest
 docker push ravindar86/multi-client:$SHA
 docker push ravindar86/multi-server:$SHA
 docker push ravindar86/multi-worker:$SHA
-
+# kubectl apply
 kubectl apply -f k8s
 
 kubectl set image deployments/server-deployment server=ravindar86/multi-server:$SHA
